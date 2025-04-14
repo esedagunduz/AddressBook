@@ -1,0 +1,6 @@
+framework module Pods_Address_Book_Address_BookUITests {
+  umbrella header "Pods-Address_Book-Address_BookUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.0'
+
+target 'Address_Book' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ pod 'RealmSwift'
+
+  # Pods for Address_Book
+
+  target 'Address_BookTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Address_BookUITests' do
+    # Pods for testing
+  end
+
+end
